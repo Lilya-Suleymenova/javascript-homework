@@ -1,0 +1,24 @@
+let age = Number(prompt('Сколько вам лет?'));
+
+if (age >= 18) {
+  alert('Доступ на сайт разрешен');
+} else {
+  alert('Извините, доступ только с 18 лет');
+}
+
+
+
+let weather = prompt('Какая сейчас погода? (солнце, дождь или снег)')
+  .toLowerCase()
+  .trim();
+
+if (weather === 'солнце') {
+  console.log('Отличная погода для прогулки!');
+} else if (weather === 'дождь') {
+  console.log('Не забудьте взять зонт.');
+} else if (weather === 'снег') {
+  console.log('Одевайтесь теплее, на улице мороз!');
+} else {
+  console.log('Я не знаю такой погоды.');
+}
+
